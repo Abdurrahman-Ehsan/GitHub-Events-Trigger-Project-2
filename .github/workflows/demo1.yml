@@ -4,6 +4,7 @@ on:
     types:
       - opened
   dispatch_checkout:
+  push:
 jobs:
   deploy:
     runs-on: ubuntu-latest
